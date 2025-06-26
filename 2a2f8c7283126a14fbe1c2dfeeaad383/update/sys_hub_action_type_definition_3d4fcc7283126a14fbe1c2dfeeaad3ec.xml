@@ -1,0 +1,1533 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <ih_action>true</ih_action>
+        <internal_name>invoke_powershell_script</internal_name>
+        <label_cache>[{"name":"{{action.prompt}}","label":"action➛prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[18360e23-9f4c-46d3-a139-5902aa316775].output}}","label":"step➛PowerShell step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master_snapshot>e7727cf283566a14fbe1c2dfeeaad387</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Invoke Powershell Script</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:21:18</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3d4fcc7283126a14fbe1c2dfeeaad3ec</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Invoke Powershell Script</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_3d4fcc7283126a14fbe1c2dfeeaad3ec</sys_update_name>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:46</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3d4fcc7283126a14fbe1c2dfeeaad3ec"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3d4fcc7283126a14fbe1c2dfeeaad3ec"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3d4fcc7283126a14fbe1c2dfeeaad3ec</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:36</sys_created_on>
+        <sys_id>0b57d8b683526a14fbe1c2dfeeaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:36</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">f257d8b683526a14fbe1c2dfeeaad3b7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_definition</document>
+        <document_key>3d4fcc7283126a14fbe1c2dfeeaad3ec</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:36</sys_created_on>
+        <sys_id>cb57d8b683526a14fbe1c2dfeeaad3cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:11:48</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">b657d8b683526a14fbe1c2dfeeaad3b2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=3d4fcc7283126a14fbe1c2dfeeaad3ec"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reponse</field>
+        <id>3d4fcc7283126a14fbe1c2dfeeaad3ec</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 15:11:48</sys_created_on>
+        <sys_id>86faf1728312aa14fbe1c2dfeeaad32a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:11:48</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</table>
+        <value>{{step[18360e23-9f4c-46d3-a139-5902aa316775].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>3d4fcc7283126a14fbe1c2dfeeaad3ec</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:36</sys_created_on>
+        <sys_id>8757d8b683526a14fbe1c2dfeeaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:36</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>3d4fcc7283126a14fbe1c2dfeeaad3ec</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:36</sys_created_on>
+        <sys_id>c357d8b683526a14fbe1c2dfeeaad3cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:36</sys_updated_on>
+        <table>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=3d4fcc7283126a14fbe1c2dfeeaad3ec^sys_idNOT IN7257d8b683526a14fbe1c2dfeeaad39c"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Invoke Powershell Script">3d4fcc7283126a14fbe1c2dfeeaad3ec</action>
+        <cid>18360e23-9f4c-46d3-a139-5902aa316775</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>PowerShell step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="PowerShell">486f577a3721030003a08fb77e41f1d6</step_type>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>7257d8b683526a14fbe1c2dfeeaad39c</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:03</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=7257d8b683526a14fbe1c2dfeeaad39c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7257d8b683526a14fbe1c2dfeeaad39c</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>3657d8b683526a14fbe1c2dfeeaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">4ecf1b7a3721030003a08fb77e41f149</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7257d8b683526a14fbe1c2dfeeaad39c</document_key>
+        <order>95</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>7257d8b683526a14fbe1c2dfeeaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">306d63c25f101300a09a2abd7f466627</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7257d8b683526a14fbe1c2dfeeaad39c</document_key>
+        <order>96</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>7657d8b683526a14fbe1c2dfeeaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <value>427709a60a0006bc7d2904e99132532d</value>
+        <variable display_value="Capabilities">2046cd992f201300a09a839fb18c956d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7257d8b683526a14fbe1c2dfeeaad39c</document_key>
+        <order>160</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 08:00:44</sys_created_on>
+        <sys_id>ab48107a83526a14fbe1c2dfeeaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 08:00:44</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Input Variables">2183a3fa3721030003a08fb77e41f1c2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7257d8b683526a14fbe1c2dfeeaad39c</document_key>
+        <order>140</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>be57d8b683526a14fbe1c2dfeeaad3ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:03</sys_updated_on>
+        <value>#******* Format to access Input Parameters *******
+# To use variable, prefix with '$'. eg. $message
+# Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
+
+#******* Reserved variables available when remoting type is Run on MID
+# $computer   Host IP resolved from Connection alias
+# $cred       Credential Object. Credential resolved via connection alias or credential alias. This can be used in conjunction with any cmd-let which support credential parameter eg. New-PSSession -credential $cred
+# $log_info   mid property "mid.property.powershell.log_info" set on instance to enable debugging. So it's a flag available to act on and add any verbose logging if they want to in their script
+C:\Users\Learner\AppData\Local\Programs\Python\Python313\python.exe c:\mcp\langchain_client2.py $scriptinput</value>
+        <variable display_value="Command">c54323fa3721030003a08fb77e41f16e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>7257d8b683526a14fbe1c2dfeeaad39c</document_key>
+        <order>130</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>f657d8b683526a14fbe1c2dfeeaad3af</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <value>inline_script</value>
+        <variable display_value="Script Type">e6f26fba3721030003a08fb77e41f1eb</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=7257d8b683526a14fbe1c2dfeeaad39c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>7257d8b683526a14fbe1c2dfeeaad39c</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>7e57d8b683526a14fbe1c2dfeeaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>7257d8b683526a14fbe1c2dfeeaad39c</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>f257d8b683526a14fbe1c2dfeeaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>7257d8b683526a14fbe1c2dfeeaad39c</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>ba57d8b683526a14fbe1c2dfeeaad3ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>7257d8b683526a14fbe1c2dfeeaad39c</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>3257d8b683526a14fbe1c2dfeeaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>input_variables</field>
+        <id>7257d8b683526a14fbe1c2dfeeaad39c</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 08:00:44</sys_created_on>
+        <sys_id>a748107a83526a14fbe1c2dfeeaad38c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 08:00:44</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value>{"scriptinput":"{{action.prompt}}"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script_type</field>
+        <id>7257d8b683526a14fbe1c2dfeeaad39c</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>f257d8b683526a14fbe1c2dfeeaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:35</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=7257d8b683526a14fbe1c2dfeeaad39c"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=7257d8b683526a14fbe1c2dfeeaad39c"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=7257d8b683526a14fbe1c2dfeeaad39c"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=7257d8b683526a14fbe1c2dfeeaad39c"/>
+    <sys_hub_action_input action="delete_multiple" query="model=3d4fcc7283126a14fbe1c2dfeeaad3ec^sys_idNOT IN9b48107a83526a14fbe1c2dfeeaad331"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d2180d26-7dac-48d7-b4b5-6b370ff7d558</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>prompt</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>prompt</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Invoke Powershell Script">3d4fcc7283126a14fbe1c2dfeeaad3ec</model>
+        <model_id>3d4fcc7283126a14fbe1c2dfeeaad3ec</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_input_3d4fcc7283126a14fbe1c2dfeeaad3ec</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 08:00:43</sys_created_on>
+        <sys_id>9b48107a83526a14fbe1c2dfeeaad331</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 08:00:43</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=9b48107a83526a14fbe1c2dfeeaad331"/>
+    <sys_hub_action_output action="delete_multiple" query="model=3d4fcc7283126a14fbe1c2dfeeaad3ec^sys_idNOT INb5fab1728312aa14fbe1c2dfeeaad3fe,b657d8b683526a14fbe1c2dfeeaad3b2,f257d8b683526a14fbe1c2dfeeaad3b7"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=9861a4f1-589d-4563-b79a-13a9855a5bda</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reponse</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_486f577a3721030003a08fb77e41f1d6">4b98e37e3721030003a08fb77e41f1aa</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>reponse</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Invoke Powershell Script">3d4fcc7283126a14fbe1c2dfeeaad3ec</model>
+        <model_id>3d4fcc7283126a14fbe1c2dfeeaad3ec</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 15:11:48</sys_created_on>
+        <sys_id>b5fab1728312aa14fbe1c2dfeeaad3fe</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b5fab1728312aa14fbe1c2dfeeaad3fe"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b5fab1728312aa14fbe1c2dfeeaad3fe"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d0986c4f-b0a9-4f98-934f-f39b90f1a27f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Invoke Powershell Script">3d4fcc7283126a14fbe1c2dfeeaad3ec</model>
+        <model_id>3d4fcc7283126a14fbe1c2dfeeaad3ec</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:35</sys_created_on>
+        <sys_id>b657d8b683526a14fbe1c2dfeeaad3b2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:11:48</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b657d8b683526a14fbe1c2dfeeaad3b2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b657d8b683526a14fbe1c2dfeeaad3b2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d1c3cfdd-03b0-41b3-a460-9a6e1d2e9efa,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Invoke Powershell Script">3d4fcc7283126a14fbe1c2dfeeaad3ec</model>
+        <model_id>3d4fcc7283126a14fbe1c2dfeeaad3ec</model_id>
+        <model_table>sys_hub_action_type_definition</model_table>
+        <name>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:36</sys_created_on>
+        <sys_id>f257d8b683526a14fbe1c2dfeeaad3b7</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:44</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f257d8b683526a14fbe1c2dfeeaad3b7"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=f257d8b683526a14fbe1c2dfeeaad3b7"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=3d4fcc7283126a14fbe1c2dfeeaad3ec"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=3d4fcc7283126a14fbe1c2dfeeaad3ec^sys_idNOT IN4357d8b683526a14fbe1c2dfeeaad3cf"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Invoke Powershell Script">3d4fcc7283126a14fbe1c2dfeeaad3ec</action_type_id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:36</sys_created_on>
+        <sys_id>4357d8b683526a14fbe1c2dfeeaad3cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:36</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=4357d8b683526a14fbe1c2dfeeaad3cf"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>prompt</element>
+        <help/>
+        <hint/>
+        <label>prompt</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_3d4fcc7283126a14fbe1c2dfeeaad3ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 08:00:43</sys_created_on>
+        <sys_id>df48107a83526a14fbe1c2dfeeaad335</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 08:00:43</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_3d4fcc7283126a14fbe1c2dfeeaad3ec"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:36</sys_created_on>
+        <sys_id>3657d8b683526a14fbe1c2dfeeaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 07:56:36</sys_created_on>
+        <sys_id>3a57d8b683526a14fbe1c2dfeeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 07:56:36</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reponse</element>
+        <help/>
+        <hint/>
+        <label>reponse</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 15:11:48</sys_created_on>
+        <sys_id>4afaf1728312aa14fbe1c2dfeeaad31b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:11:48</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_3d4fcc7283126a14fbe1c2dfeeaad3ec"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=3d4fcc7283126a14fbe1c2dfeeaad3ec^sys_idNOT INd482bcf283566a14fbe1c2dfeeaad358"/>
+    <sys_hub_action_plan action="INSERT_OR_UPDATE">
+        <action_id display_value="Invoke Powershell Script">3d4fcc7283126a14fbe1c2dfeeaad3ec</action_id>
+        <plan>{"type":"PlanProxy","persistor":{"@class":".ChunkingPlanPersistor","table":"sys_hub_action_plan","id":"d482bcf283566a14fbe1c2dfeeaad358","name":"plan","plan_signature":null}}</plan>
+        <snapshot>fbff717e8312aa14fbe1c2dfeeaad349</snapshot>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d482bcf283566a14fbe1c2dfeeaad358</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:47</sys_updated_on>
+    </sys_hub_action_plan>
+    <sys_hub_action_type_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <annotation/>
+        <attributes>{labelCacheCleanUpExecuted=true}</attributes>
+        <authored_on_release_version>27000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <flow_priority/>
+        <internal_name>invoke_powershell_script</internal_name>
+        <label_cache>[{"name":"{{action.prompt}}","label":"action➛prompt","type":"action","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}},{"name":"{{step[18360e23-9f4c-46d3-a139-5902aa316775].output}}","label":"step➛PowerShell step➛Output","type":"step","ref":"","reference_display":"","base_type":"string","parent_table_name":"","column_name":"","choices":null,"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Invoke Powershell Script</name>
+        <natlang/>
+        <outputs/>
+        <outputs/>
+        <parent_action display_value="Invoke Powershell Script">3d4fcc7283126a14fbe1c2dfeeaad3ec</parent_action>
+        <sys_class_name>sys_hub_action_type_snapshot</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e7727cf283566a14fbe1c2dfeeaad387</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:45</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=e7727cf283566a14fbe1c2dfeeaad387"/>
+    <sys_variable_value action="delete_multiple" query="document_key=e7727cf283566a14fbe1c2dfeeaad387"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>e7727cf283566a14fbe1c2dfeeaad387</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:11</sys_created_on>
+        <sys_id>8c827cf283566a14fbe1c2dfeeaad3f4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:46</sys_updated_on>
+        <value>{"version":"1.0","complexObject":{"code":{"$cv":{"$c":"java.lang.String","$v":""}},"message":{"$cv":{"$c":"java.lang.String","$v":""}}},"complexObjectSchema":{"FlowDesigner:FDACTIONSTATUS":{"code":"Integer","code.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"Integer\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"integer\",\"default_value\":\"\",\"label\":\"Code\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"1\",\"max_length\":\"40\"}"},"message":"String","message.$field_facets":{"SimpleMapFacet":"{\"uiTypeLabel\":\"String\",\"read_only\":\"false\",\"hint\":\"\",\"uiType\":\"string\",\"default_value\":\"\",\"label\":\"Message\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"order\":\"2\",\"max_length\":\"4000\"}"}},"FlowDesigner:FDACTIONSTATUS.$type_facets":{"SimpleMapFacet":"{\"default_value\":\"\",\"label\":\"Action Status\",\"action_error_output\":\"true\",\"mandatory\":\"false\",\"uiUniqueId\":\"794bc342-9c9d-444b-a3f2-dd4b6a5a0173\",\"uiTypeLabel\":\"Object\",\"co_type_name\":\"FDACTIONSTATUS\",\"element_mapping_provider\":\"com.glide.flow_design.action.data.FlowDesignVariableMapper\",\"read_only\":\"false\",\"hint\":null,\"uiType\":\"object\",\"order\":\"1\",\"max_length\":\"65000\"}"}},"serializationFormat":"JSON"}</value>
+        <variable display_value="Action Status">33727cf283566a14fbe1c2dfeeaad3ce</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_type_snapshot</document>
+        <document_key>e7727cf283566a14fbe1c2dfeeaad387</document_key>
+        <order>2</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:11</sys_created_on>
+        <sys_id>c8827cf283566a14fbe1c2dfeeaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:11</sys_updated_on>
+        <value>0</value>
+        <variable display_value="Don't Treat as Error">fb727cf283566a14fbe1c2dfeeaad3d2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=e7727cf283566a14fbe1c2dfeeaad387"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>reponse</field>
+        <id>e7727cf283566a14fbe1c2dfeeaad387</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 15:33:46</sys_created_on>
+        <sys_id>ffff717e8312aa14fbe1c2dfeeaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:46</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</table>
+        <value>{{step[18360e23-9f4c-46d3-a139-5902aa316775].output}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__action_status__</field>
+        <id>e7727cf283566a14fbe1c2dfeeaad387</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:11</sys_created_on>
+        <sys_id>48827cf283566a14fbe1c2dfeeaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>__dont_treat_as_error__</field>
+        <id>e7727cf283566a14fbe1c2dfeeaad387</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:11</sys_created_on>
+        <sys_id>84827cf283566a14fbe1c2dfeeaad3f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:11</sys_updated_on>
+        <table>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_step_instance action="delete_multiple" query="action=e7727cf283566a14fbe1c2dfeeaad387^sys_idNOT IN73727cf283566a14fbe1c2dfeeaad3bb"/>
+    <sys_hub_step_instance action="INSERT_OR_UPDATE">
+        <action display_value="Invoke Powershell Script">e7727cf283566a14fbe1c2dfeeaad387</action>
+        <cid>18360e23-9f4c-46d3-a139-5902aa316775</cid>
+        <error_handling_type>1</error_handling_type>
+        <extended_inputs/>
+        <extended_outputs/>
+        <icon/>
+        <inputs/>
+        <inputs/>
+        <label>PowerShell step</label>
+        <order>1</order>
+        <outputs/>
+        <section/>
+        <step_type display_value="PowerShell">486f577a3721030003a08fb77e41f1d6</step_type>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>73727cf283566a14fbe1c2dfeeaad3bb</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+    </sys_hub_step_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=73727cf283566a14fbe1c2dfeeaad3bb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>73727cf283566a14fbe1c2dfeeaad3bb</document_key>
+        <order>20</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>37727cf283566a14fbe1c2dfeeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <value>define_connection_inline</value>
+        <variable display_value="Connection">4ecf1b7a3721030003a08fb77e41f149</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>73727cf283566a14fbe1c2dfeeaad3bb</document_key>
+        <order>95</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>73727cf283566a14fbe1c2dfeeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <value>35aa573fd7802200bdbaee5b5e610375</value>
+        <variable display_value="MID Application">306d63c25f101300a09a2abd7f466627</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>73727cf283566a14fbe1c2dfeeaad3bb</document_key>
+        <order>140</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>bf727cf283566a14fbe1c2dfeeaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <value>#******* Format to access Input Parameters *******
+# To use variable, prefix with '$'. eg. $message
+# Read more https://docs.servicenow.com/?context=CSHelp:IntegrationHub-PowerShell-Step
+
+#******* Reserved variables available when remoting type is Run on MID
+# $computer   Host IP resolved from Connection alias
+# $cred       Credential Object. Credential resolved via connection alias or credential alias. This can be used in conjunction with any cmd-let which support credential parameter eg. New-PSSession -credential $cred
+# $log_info   mid property "mid.property.powershell.log_info" set on instance to enable debugging. So it's a flag available to act on and add any verbose logging if they want to in their script
+C:\Users\Learner\AppData\Local\Programs\Python\Python313\python.exe c:\mcp\langchain_client2.py $scriptinput</value>
+        <variable display_value="Command">c54323fa3721030003a08fb77e41f16e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>73727cf283566a14fbe1c2dfeeaad3bb</document_key>
+        <order>96</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>f3727cf283566a14fbe1c2dfeeaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <value>427709a60a0006bc7d2904e99132532d</value>
+        <variable display_value="Capabilities">2046cd992f201300a09a839fb18c956d</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>73727cf283566a14fbe1c2dfeeaad3bb</document_key>
+        <order>130</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>f7727cf283566a14fbe1c2dfeeaad3cb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <value>inline_script</value>
+        <variable display_value="Script Type">e6f26fba3721030003a08fb77e41f1eb</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_step_instance</document>
+        <document_key>73727cf283566a14fbe1c2dfeeaad3bb</document_key>
+        <order>160</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>fb727cf283566a14fbe1c2dfeeaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <value>{}</value>
+        <variable display_value="Input Variables">2183a3fa3721030003a08fb77e41f1c2</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=73727cf283566a14fbe1c2dfeeaad3bb"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>application</field>
+        <id>73727cf283566a14fbe1c2dfeeaad3bb</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>fb727cf283566a14fbe1c2dfeeaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>capabilities</field>
+        <id>73727cf283566a14fbe1c2dfeeaad3bb</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>bf727cf283566a14fbe1c2dfeeaad3c8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>command</field>
+        <id>73727cf283566a14fbe1c2dfeeaad3bb</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>3b727cf283566a14fbe1c2dfeeaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>connection</field>
+        <id>73727cf283566a14fbe1c2dfeeaad3bb</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>bf727cf283566a14fbe1c2dfeeaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>input_variables</field>
+        <id>73727cf283566a14fbe1c2dfeeaad3bb</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>77727cf283566a14fbe1c2dfeeaad3c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value>{"scriptinput":"{{action.prompt}}"}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>script_type</field>
+        <id>73727cf283566a14fbe1c2dfeeaad3bb</id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>73727cf283566a14fbe1c2dfeeaad3ca</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <table>var__m_sys_flow_step_definition_input_486f577a3721030003a08fb77e41f1d6</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_translated_text action="delete_multiple" query="documentkey=73727cf283566a14fbe1c2dfeeaad3bb"/>
+    <sys_hub_step_ext_input action="delete_multiple" query="model=73727cf283566a14fbe1c2dfeeaad3bb"/>
+    <sys_hub_step_ext_output action="delete_multiple" query="model=73727cf283566a14fbe1c2dfeeaad3bb"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=73727cf283566a14fbe1c2dfeeaad3bb"/>
+    <sys_hub_action_input action="delete_multiple" query="model=e7727cf283566a14fbe1c2dfeeaad387^sys_idNOT IN6b727cf283566a14fbe1c2dfeeaad38a"/>
+    <sys_hub_action_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=string,uiTypeLabel=String,uiUniqueId=d2180d26-7dac-48d7-b4b5-6b370ff7d558</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>prompt</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>prompt</label>
+        <mandatory>false</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Invoke Powershell Script">e7727cf283566a14fbe1c2dfeeaad387</model>
+        <model_id>e7727cf283566a14fbe1c2dfeeaad387</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_input_e7727cf283566a14fbe1c2dfeeaad387</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_input</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:09</sys_created_on>
+        <sys_id>6b727cf283566a14fbe1c2dfeeaad38a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:09</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6b727cf283566a14fbe1c2dfeeaad38a"/>
+    <sys_hub_action_output action="delete_multiple" query="model=e7727cf283566a14fbe1c2dfeeaad387^sys_idNOT IN33727cf283566a14fbe1c2dfeeaad3ce,fb727cf283566a14fbe1c2dfeeaad3d2,ffff717e8312aa14fbe1c2dfeeaad334"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,co_type_name=FDACTIONSTATUS,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=object,uiTypeLabel=Object,uiUniqueId=d0986c4f-b0a9-4f98-934f-f39b90f1a27f</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__action_status__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Action Status</label>
+        <mandatory>false</mandatory>
+        <max_length>65000</max_length>
+        <model display_value="Invoke Powershell Script">e7727cf283566a14fbe1c2dfeeaad387</model>
+        <model_id>e7727cf283566a14fbe1c2dfeeaad387</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</name>
+        <next_element/>
+        <order>2</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>33727cf283566a14fbe1c2dfeeaad3ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=33727cf283566a14fbe1c2dfeeaad3ce"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=33727cf283566a14fbe1c2dfeeaad3ce"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>action_error_output=true,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=boolean,uiTypeLabel=True/False,uiUniqueId=d1c3cfdd-03b0-41b3-a460-9a6e1d2e9efa,visible_in_ui=false</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value>true</default_value>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>__dont_treat_as_error__</element>
+        <element_prototype/>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="">boolean</internal_type>
+        <label>Don't Treat as Error</label>
+        <mandatory>false</mandatory>
+        <max_length>40</max_length>
+        <model display_value="Invoke Powershell Script">e7727cf283566a14fbe1c2dfeeaad387</model>
+        <model_id>e7727cf283566a14fbe1c2dfeeaad387</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</name>
+        <next_element/>
+        <order>3</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>fb727cf283566a14fbe1c2dfeeaad3d2</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=fb727cf283566a14fbe1c2dfeeaad3d2"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=fb727cf283566a14fbe1c2dfeeaad3d2"/>
+    <sys_hub_action_output action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=string,uiTypeLabel=String,uiUniqueId=9861a4f1-589d-4563-b79a-13a9855a5bda</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>reponse</element>
+        <element_prototype display_value="Output" element="output" name="var__m_sys_flow_step_definition_output_486f577a3721030003a08fb77e41f1d6">4b98e37e3721030003a08fb77e41f1aa</element_prototype>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_link/>
+        <internal_type display_value="String">string</internal_type>
+        <label>reponse</label>
+        <mandatory>true</mandatory>
+        <max_length>8000</max_length>
+        <model display_value="Invoke Powershell Script">e7727cf283566a14fbe1c2dfeeaad387</model>
+        <model_id>e7727cf283566a14fbe1c2dfeeaad387</model_id>
+        <model_table>sys_hub_action_type_snapshot</model_table>
+        <name>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_action_output</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 15:33:46</sys_created_on>
+        <sys_id>ffff717e8312aa14fbe1c2dfeeaad334</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:46</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_action_output>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ffff717e8312aa14fbe1c2dfeeaad334"/>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=ffff717e8312aa14fbe1c2dfeeaad334"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=e7727cf283566a14fbe1c2dfeeaad387"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=e7727cf283566a14fbe1c2dfeeaad387^sys_idNOT IN04827cf283566a14fbe1c2dfeeaad3f6"/>
+    <sys_hub_action_status_metadata action="INSERT_OR_UPDATE">
+        <action_type_id display_value="Invoke Powershell Script">e7727cf283566a14fbe1c2dfeeaad387</action_type_id>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:11</sys_created_on>
+        <sys_id>04827cf283566a14fbe1c2dfeeaad3f6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:11</sys_updated_on>
+    </sys_hub_action_status_metadata>
+    <sys_hub_status_condition action="delete_multiple" query="action_status_metadata_id=04827cf283566a14fbe1c2dfeeaad3f6"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>prompt</element>
+        <help/>
+        <hint/>
+        <label>prompt</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_input_e7727cf283566a14fbe1c2dfeeaad387</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>b3727cf283566a14fbe1c2dfeeaad3b6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_e7727cf283566a14fbe1c2dfeeaad387"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__action_status__</element>
+        <help/>
+        <hint/>
+        <label>Action Status</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:10</sys_created_on>
+        <sys_id>33727cf283566a14fbe1c2dfeeaad3d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:10</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>__dont_treat_as_error__</element>
+        <help/>
+        <hint/>
+        <label>Don't Treat as Error</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 09:55:11</sys_created_on>
+        <sys_id>40827cf283566a14fbe1c2dfeeaad3f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 09:55:11</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>reponse</element>
+        <help/>
+        <hint/>
+        <label>reponse</label>
+        <language>en</language>
+        <name>var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 15:33:46</sys_created_on>
+        <sys_id>ffff717e8312aa14fbe1c2dfeeaad338</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:33:46</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_e7727cf283566a14fbe1c2dfeeaad387"/>
+    <sys_hub_action_type_definition action="UPDATE">
+        <sys_id>3d4fcc7283126a14fbe1c2dfeeaad3ec</sys_id>
+        <latest_snapshot>e7727cf283566a14fbe1c2dfeeaad387</latest_snapshot>
+        <compiler_build>glide-yokohama-12-18-2024__patch3-04-17-2025_04-30-2025_1345.zip</compiler_build>
+    </sys_hub_action_type_definition>
+</record_update>

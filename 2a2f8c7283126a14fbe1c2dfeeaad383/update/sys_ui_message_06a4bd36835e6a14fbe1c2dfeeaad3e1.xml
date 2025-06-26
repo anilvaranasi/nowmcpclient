@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_message">
+    <sys_ui_message action="INSERT_OR_UPDATE">
+        <application>Virtual Agent</application>
+        <code/>
+        <commented_message/>
+        <key>agentic ai</key>
+        <language>en</language>
+        <message>Agentic AI</message>
+        <sys_class_name>sys_ui_message</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 14:44:14</sys_created_on>
+        <sys_id>06a4bd36835e6a14fbe1c2dfeeaad3e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>agentic ai</sys_name>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name>sys_ui_message_06a4bd36835e6a14fbe1c2dfeeaad3e1</sys_update_name>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 14:44:14</sys_updated_on>
+    </sys_ui_message>
+</record_update>

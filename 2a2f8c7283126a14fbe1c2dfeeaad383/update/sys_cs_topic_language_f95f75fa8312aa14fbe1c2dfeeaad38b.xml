@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_topic_language">
+    <sys_cs_topic_language action="INSERT_OR_UPDATE">
+        <cs_topic_id display_value="Agentic AI">8bbe7d7a8312aa14fbe1c2dfeeaad387</cs_topic_id>
+        <language_code>en</language_code>
+        <nlu_entities>[]</nlu_entities>
+        <nlu_intent>Affirmative</nlu_intent>
+        <nlu_intent_label>Affirmative</nlu_intent_label>
+        <nlu_model>Setup_Topics_Model</nlu_model>
+        <nlu_model_label>Setup Topics Model</nlu_model_label>
+        <nlu_provider>64c023c17300330021a044764df6a70e</nlu_provider>
+        <sys_class_name>sys_cs_topic_language</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 15:30:54</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f95f75fa8312aa14fbe1c2dfeeaad38b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name>sys_cs_topic_language_f95f75fa8312aa14fbe1c2dfeeaad38b</sys_update_name>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:43:38</sys_updated_on>
+    </sys_cs_topic_language>
+</record_update>
