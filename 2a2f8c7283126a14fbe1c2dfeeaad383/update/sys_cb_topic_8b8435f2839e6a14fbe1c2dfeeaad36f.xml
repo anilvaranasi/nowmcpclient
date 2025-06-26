@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <autopilot_topic>false</autopilot_topic>
+        <category/>
+        <channels/>
+        <connect_queue/>
+        <context_profiles/>
+        <description>Access Agentic AI from virtual agent</description>
+        <dialog_acts_enabled>false</dialog_acts_enabled>
+        <expose_on_palette>false</expose_on_palette>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <foundational>false</foundational>
+        <graph>{
+  "graph_api_version": "1.0.78",
+  "goals": {
+    "primary": {
+      "id": "primary",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "384834cdc174460f99c308de8469ba8b": {
+          "id": "384834cdc174460f99c308de8469ba8b",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Hi welcome to MCP client"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          }
+        },
+        "3b52697a99b44b309725c80bc435447f": {
+          "id": "3b52697a99b44b309725c80bc435447f",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Thanks for using CSDM assistant. Powered by WatsonX."
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          }
+        },
+        "b900831ebef24050b788f1565e1da9d1": {
+          "id": "b900831ebef24050b788f1565e1da9d1",
+          "stepType": "TextPrompt",
+          "name": "Query",
+          "prompt": {
+            "value": [
+              {
+                "type": "paragraph",
+                "children": [
+                  {
+                    "text": "Ask your MCP client"
+                  }
+                ]
+              }
+            ],
+            "mode": "simple"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "skippable": {
+            "value": "",
+            "mode": "query"
+          },
+          "skipReprompt": {
+            "value": "",
+            "mode": "query"
+          },
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "withNluUserInput": false,
+          "skipIfFulfilled": false,
+          "variableId": "b8fe9b5d1286458296f0dbb9b888e070",
+          "detailDescription": "",
+          "inputType": {
+            "format": "Text",
+            "script": ""
+          },
+          "requestFeedback": true,
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "hasCardHeader": false
+        },
+        "24135807db674edea255002195ad5e99": {
+          "id": "24135807db674edea255002195ad5e99",
+          "stepType": "TextOutput",
+          "name": "Assistant response",
+          "secure": false,
+          "value": [
+            {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.reponse}}",
+                        "displayValue": "Input Variables➛Reponse"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "simple",
+              "_key": "787846d93cec42e286b630f39185b32c"
+            }
+          ],
+          "requestFeedback": true,
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          },
+          "isCollapsible": true
+        },
+        "068795a69030490a8c442d0f61170b12": {
+          "id": "068795a69030490a8c442d0f61170b12",
+          "stepType": "Decision",
+          "name": "Decision",
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          }
+        },
+        "1849f9647e304cb1b50acd5984a7bf06": {
+          "id": "1849f9647e304cb1b50acd5984a7bf06",
+          "name": "MCP Client",
+          "invocationType": "action",
+          "stepType": "FlowAction",
+          "actionSpoke": "2a2f8c7283126a14fbe1c2dfeeaad383",
+          "actionSpokeAction": "e7727cf283566a14fbe1c2dfeeaad387",
+          "actionWaitType": "sync",
+          "actionRunAs": "session_user",
+          "permissionsNote": "By default, the Action executes based on the permissions of the user who initiated the conversation. For elevated privileges, you can set to System User.",
+          "actionSecureField": false,
+          "actionSelectSecureField": "",
+          "actionPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": ""
+          },
+          "actionInputs": {
+            "input-prompt": {
+              "value": [
+                {
+                  "type": "paragraph",
+                  "children": [
+                    {
+                      "text": ""
+                    },
+                    {
+                      "type": "datapill",
+                      "dataPill": {
+                        "value": "{{vaInputs.query}}",
+                        "displayValue": "Input Variables➛Query"
+                      },
+                      "children": [
+                        {
+                          "text": ""
+                        }
+                      ]
+                    },
+                    {
+                      "text": ""
+                    }
+                  ]
+                }
+              ],
+              "mode": "string"
+            }
+          },
+          "actionOutputs": {
+            "output-reponse": [
+              {
+                "id": "9c1967713b204084afb05444aa49d00f",
+                "mapping": "reponse",
+                "disabled": false,
+                "type": "string",
+                "value": "reponse",
+                "description": "",
+                "is_list_data_entry": false,
+                "dependent_on_field": "",
+                "variable": "Reponse",
+                "variableName": "reponse"
+              }
+            ],
+            "output-__action_status__": [
+              {
+                "id": "fcd1d47b61414e35bb6fecd7df493c39",
+                "mapping": "Action Status",
+                "disabled": false,
+                "type": "object",
+                "value": "Action Status",
+                "description": "",
+                "is_list_data_entry": false,
+                "dependent_on_field": "",
+                "variable": "Action Status",
+                "variableName": "action_status"
+              }
+            ],
+            "output-__dont_treat_as_error__": [
+              {
+                "id": "a2d76c0d9bc946e1a939b45ddea98958",
+                "mapping": "Don't Treat as Error",
+                "disabled": false,
+                "type": "boolean",
+                "value": "Don't Treat as Error",
+                "description": "",
+                "is_list_data_entry": false,
+                "dependent_on_field": "",
+                "variable": "Don't Treat As Error",
+                "variableName": "don_t_treat_as_error"
+              }
+            ]
+          },
+          "actionDefinition": {
+            "id": "e7727cf283566a14fbe1c2dfeeaad387",
+            "latest_snapshot_id": "e7727cf283566a14fbe1c2dfeeaad387",
+            "parent_id": "3d4fcc7283126a14fbe1c2dfeeaad3ec",
+            "type": "action",
+            "name": "invoke_powershell_script",
+            "label": "Invoke Powershell Script",
+            "scope_id": "2a2f8c7283126a14fbe1c2dfeeaad383",
+            "description": "",
+            "category": "",
+            "parameters_have_loaded": true,
+            "input_parameters": [
+              {
+                "supported_input_modes": [
+                  "script",
+                  "data_pill",
+                  "data_entry"
+                ],
+                "name": "prompt",
+                "label": "prompt",
+                "type": "string",
+                "order": 1,
+                "required": false,
+                "value": [],
+                "description": "",
+                "is_list_data_entry": false,
+                "dependent_on_field": ""
+              }
+            ],
+            "output_parameters": [
+              {
+                "name": "reponse",
+                "label": "reponse",
+                "type": "string",
+                "order": 1,
+                "required": true,
+                "value": [],
+                "description": "",
+                "is_list_data_entry": false,
+                "dependent_on_field": ""
+              },
+              {
+                "name": "__action_status__",
+                "label": "Action Status",
+                "type": "object",
+                "order": 2,
+                "required": false,
+                "value": [],
+                "description": "",
+                "is_list_data_entry": false,
+                "dependent_on_field": ""
+              },
+              {
+                "name": "__dont_treat_as_error__",
+                "label": "Don't Treat as Error",
+                "type": "boolean",
+                "order": 3,
+                "required": false,
+                "value": [],
+                "description": "",
+                "is_list_data_entry": false,
+                "dependent_on_field": ""
+              }
+            ]
+          },
+          "subflowSecureField": false,
+          "subflowSelectSecureField": "",
+          "subflowPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowConfirmPromptSecureField": {
+            "mode": "simple",
+            "value": ""
+          },
+          "subflowNonSecureChannelMessage": {
+            "mode": "simple",
+            "value": "This action is not supported on this channel."
+          },
+          "variableIds": [
+            "9c1967713b204084afb05444aa49d00f",
+            "fcd1d47b61414e35bb6fecd7df493c39",
+            "a2d76c0d9bc946e1a939b45ddea98958"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "cardMetadata": {
+            "mode": "card",
+            "metadataScript": "",
+            "cardTemplate": "",
+            "cardFields": {},
+            "cardDefinition": {}
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "615a3a5055764f91a3965e7588d88baa",
+          "edgeType": "Edge",
+          "source": "1849f9647e304cb1b50acd5984a7bf06",
+          "target": "24135807db674edea255002195ad5e99",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "398d8038f18f466b9af1b7404728ba08",
+          "edgeType": "Edge",
+          "source": "24135807db674edea255002195ad5e99",
+          "target": "b900831ebef24050b788f1565e1da9d1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e491a49ccdee4f75a1257fe3d35de79f",
+          "edgeType": "Edge",
+          "source": "384834cdc174460f99c308de8469ba8b",
+          "target": "b900831ebef24050b788f1565e1da9d1",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "66d5b7a4d00c41629b2117c0fe3654c1",
+          "edgeType": "Edge",
+          "source": "b900831ebef24050b788f1565e1da9d1",
+          "target": "068795a69030490a8c442d0f61170b12",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "147cf35f7d5e4aac9c303dcb28e065bc",
+          "edgeType": "Branch",
+          "source": "068795a69030490a8c442d0f61170b12",
+          "target": "3b52697a99b44b309725c80bc435447f",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.queryCONTAINSEnd chat",
+            "mode": "query"
+          },
+          "label": "If Query is End chat"
+        },
+        {
+          "id": "70f4a1ae20524fa0a81c8afa2bf8347a",
+          "edgeType": "Branch",
+          "source": "068795a69030490a8c442d0f61170b12",
+          "target": "1849f9647e304cb1b50acd5984a7bf06",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "vaInputs.queryANYTHING",
+            "mode": "query"
+          },
+          "label": "Always"
+        }
+      ]
+    }
+  },
+  "variables": {
+    "a96fdfbeb729407ea043085d543cf4eb": {
+      "category": "vaInputs",
+      "id": "a96fdfbeb729407ea043085d543cf4eb",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "b8fe9b5d1286458296f0dbb9b888e070": {
+      "id": "b8fe9b5d1286458296f0dbb9b888e070",
+      "name": "query",
+      "label": "Query",
+      "varType": "string",
+      "secure": false,
+      "category": "vaInputs",
+      "encryptionHashFunction": "SHA-256",
+      "encryptionSalt": {
+        "value": "MTcyMDc4ODExNDc0NSBWQSBEZXNpZ25lciBpcyBhd2Vzb21l",
+        "mode": "simple"
+      },
+      "nodeId": "b900831ebef24050b788f1565e1da9d1",
+      "isHidden": false
+    },
+    "9c1967713b204084afb05444aa49d00f": {
+      "id": "9c1967713b204084afb05444aa49d00f",
+      "name": "reponse",
+      "label": "Reponse",
+      "defaultValue": "reponse",
+      "varType": "string",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "description": "",
+      "is_list_data_entry": false,
+      "dependent_on_field": "",
+      "nodeId": "1849f9647e304cb1b50acd5984a7bf06",
+      "isHidden": false
+    },
+    "fcd1d47b61414e35bb6fecd7df493c39": {
+      "id": "fcd1d47b61414e35bb6fecd7df493c39",
+      "name": "action_status",
+      "label": "Action Status",
+      "defaultValue": "Action Status",
+      "varType": "object",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "description": "",
+      "is_list_data_entry": false,
+      "dependent_on_field": "",
+      "variable": "Action Status (2)",
+      "variableName": "action_status_2",
+      "nodeId": "1849f9647e304cb1b50acd5984a7bf06",
+      "isHidden": false
+    },
+    "a2d76c0d9bc946e1a939b45ddea98958": {
+      "id": "a2d76c0d9bc946e1a939b45ddea98958",
+      "name": "don_t_treat_as_error",
+      "label": "Don't Treat As Error",
+      "defaultValue": "Don't Treat as Error",
+      "varType": "boolean",
+      "category": "vaInputs",
+      "metadata": {
+        "libraryMappingType": "output"
+      },
+      "description": "",
+      "is_list_data_entry": false,
+      "dependent_on_field": "",
+      "variable": "Don't Treat As Error (2)",
+      "variableName": "don_t_treat_as_error_2",
+      "nodeId": "1849f9647e304cb1b50acd5984a7bf06",
+      "isHidden": false
+    }
+  }
+}</graph>
+        <key_phrases>Agentic AI,CSDM Assistant</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <model_type>nlu_keyword</model_type>
+        <modify_confirmation_enabled>false</modify_confirmation_enabled>
+        <name>Agentic AI</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <palette_label/>
+        <roles/>
+        <root_topic_id>5bb5002293df4610ed04fde08bba10c1</root_topic_id>
+        <secure_custom_input_control>false</secure_custom_input_control>
+        <source_topic_id>5bb5002293df4610ed04fde08bba10c1</source_topic_id>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>myadmin</sys_created_by>
+        <sys_created_on>2025-06-26 14:43:45</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>8b8435f2839e6a14fbe1c2dfeeaad36f</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Agentic AI</sys_name>
+        <sys_package display_value="MCP Client" source="x_146833_mcp_clien">2a2f8c7283126a14fbe1c2dfeeaad383</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="MCP Client">2a2f8c7283126a14fbe1c2dfeeaad383</sys_scope>
+        <sys_update_name>sys_cb_topic_8b8435f2839e6a14fbe1c2dfeeaad36f</sys_update_name>
+        <sys_updated_by>myadmin</sys_updated_by>
+        <sys_updated_on>2025-06-26 15:46:35</sys_updated_on>
+        <title>Agentic AI</title>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+    </sys_cb_topic>
+    <sys_translated_text action="delete_multiple" query="documentkey=8b8435f2839e6a14fbe1c2dfeeaad36f"/>
+</record_update>
